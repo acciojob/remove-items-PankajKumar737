@@ -3,5 +3,5 @@ let color = document.getElementById("colorSelect");
 let btn = document.getElementById("button");
 
 btn.addEventListener("click", function(){
-	color.remove(color.value);
+	color.remove(color.selectedIndex);
 });
